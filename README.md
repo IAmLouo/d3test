@@ -33,6 +33,7 @@ pnpm dev
 ## Links
 
 - https://github.com/IAmLouo/d3test
+- https://npmjs.com
 
 - https://www.typescriptlang.org
 - https://tailwindcss.com
