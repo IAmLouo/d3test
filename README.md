@@ -1,5 +1,34 @@
 # d3test
-My first D3 repo
 
+## Dev Tools
 
-test test hello hello blah
+- `git`
+- `pnpm`
+- `vite`
+- `cursor`
+
+## Dev Technologies
+
+- `Typescript`
+- `Vite`
+
+## Runtime Technologies
+
+- `d3`
+- `solid`
+- `effect`
+- `tailwindcss`
+
+## Getting Started
+
+To install dependencies:
+
+```sh
+pnpm install
+```
+
+To start the dev server:
+
+```sh
+pnpm dev
+```
