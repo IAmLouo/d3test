@@ -33,3 +33,9 @@ pnpm dev
 ## Links
 
 - https://github.com/IAmLouo/d3test
+
+- https://tailwindcss.com
+- https://vite.dev
+- https://d3js.org
+- https://effect.website
+- https://www.typescriptlang.org
