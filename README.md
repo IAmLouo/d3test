@@ -34,10 +34,10 @@ pnpm dev
 
 - https://github.com/IAmLouo/d3test
 - https://npmjs.com
+- https://cloudflare.com
 
 - https://www.typescriptlang.org
 - https://tailwindcss.com
 - https://vite.dev
 - https://d3js.org
 - https://effect.website
-
