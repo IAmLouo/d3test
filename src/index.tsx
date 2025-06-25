@@ -1,0 +1,11 @@
+//
+// (c) 2025, burdon.io
+//
+
+import { render } from 'solid-js/web'
+import App from './App.jsx'
+import './index.css'
+
+const root = document.getElementById('root')
+
+render(() => <App />, root)
