@@ -2,22 +2,19 @@
 
 ## Dev Tools
 
-- `git`
-- `pnpm`
-- `vite`
-- `cursor`
+- `git` (Source code management)
+- `node` (Runtime)
+- `pnpm` (NodeJS package manager)
+- `vite` (Dev server)
+- `cursor` (IDE)
 
 ## Dev Technologies
 
-- `Typescript`
-- `Vite`
-
-## Runtime Technologies
-
-- `d3`
-- `solid`
-- `effect`
-- `tailwindcss`
+- `typescript` (Language)
+- `solid` (UX lib)
+- `tailwindcss` (Style lib)
+- `effect` (functional programming lib)
+- `d3` (functional programming lib for UI)
 
 ## Getting Started
 
@@ -32,3 +29,7 @@ To start the dev server:
 ```sh
 pnpm dev
 ```
+
+## Links
+
+- https://github.com/IAmLouo/d3test
