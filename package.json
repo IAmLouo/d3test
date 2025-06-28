@@ -2,12 +2,13 @@
   "name": "@IAmLouo/d3test",
   "version": "0.1.0",
   "description": "D3 Test",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "author": "Louis Burdon",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "clsx": "^2.1.1",
     "d3": "^7.9.0",
