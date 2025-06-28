@@ -67,15 +67,6 @@ function D3Circle(props: D3CircleProps) {
           })
         );
 
-      const label = svg.append('g')
-        .selectAll('text')
-        .data(nodes)
-        .enter().append('text')
-        .attr('text-anchor', 'middle')
-        .attr('dy', 4)
-        .attr('fill', '#fff')
-        .text(d => d.id);
-
       simulation.on('tick', () => {
         link
           .attr('x1', d => (d.source as any).x)
@@ -85,9 +76,6 @@ function D3Circle(props: D3CircleProps) {
         node
           .attr('cx', d => (d as any).x)
           .attr('cy', d => (d as any).y);
-        label
-          .attr('x', d => (d as any).x)
-          .attr('y', d => (d as any).y);
       });
     }
   });

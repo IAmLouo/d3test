@@ -34,9 +34,19 @@ function App() {
   return (
     <div class='absolute inset-0 flex items-center justify-center border-2 border-red-500'>
       <div class='flex flex-col items-center justify-center gap-4'>
-        <button onClick={() => setCount(count() + 1)}>Click me!!!!!!!</button>
+        <button onClick={() => setCount(count() + 1)}>Click me if you dare.</button>
         <button onClick={addNode}>Add Node</button>
-        <p class={clsx('text-[10rem] font-bold text-green-500', count() > 10 && count() <= 20 && 'text-red-500 animate-spin')}>{count()}</p>
+        <p class={`text-[10rem] font-bold ${
+          count() % 3 === 0 && count() % 5 === 0 ? 'text-green-500' : 
+          count() % 3 === 0 ? 'text-yellow-500' : 
+          count() % 5 === 0 ? 'text-blue-500' : 
+          'text-gray-500'
+        }`}>
+          {count() % 3 === 0 && count() % 5 === 0 ? 'fizzbuzz' : 
+           count() % 3 === 0 ? 'fizz' : 
+           count() % 5 === 0 ? 'buzz' : 
+           count()}
+        </p>
         <D3Circle nodes={nodes()} links={links()} />
       </div>
     </div>
